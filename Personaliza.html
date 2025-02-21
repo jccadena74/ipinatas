@@ -1,0 +1,162 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPiñatas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #d8809d;
+            color: white;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .logo {
+            width: 200px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .imagen-pinata {
+            width: 400px;
+            height: auto;
+        }
+        nav {
+            background-color: #ffd900;
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .contenido {
+            padding: 20px;
+        }
+        .banner {
+            margin-top: 50px;
+        }
+        .banner img {
+            width: 100%;
+            max-height: 100px;
+            object-fit: cover;
+        }
+        .contact-banner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+        .footer-icon {
+            width: 50px;
+            height: auto;
+            cursor: pointer;
+        }
+        .footer-info {
+            text-align: center;
+        }
+        .name {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        .phone {
+            font-size: 18px;
+            color: #333;
+        }
+        .cat-image {
+            width: 80px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #000;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+
+        /* Ajustes para los iconos en la sección de personalización */
+        .opciones {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+        .opcion {
+            text-align: center;
+            max-width: 200px;
+        }
+        .opcion img {
+            width: 60px;  /* Redimensionamos los iconos */
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .opcion a {
+            text-decoration: none;
+            color: #d8809d;
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/LOGO COLOR.png" alt="Logo de iPiñatas" class="logo">
+        <img src="img/TITULO IPINATAS.png" alt="Imagen de iPiñatas" class="imagen-pinata">
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="productos.html">Productos</a>
+        <a href="personalizacion.html">Personalización</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <section class="contenido">
+        <h2>Opciones de Personalización</h2>
+        <div class="opciones">
+            <div class="opcion">
+                <img src="img/personalizar.png" alt="Personalizar Producto">
+                <a href="Contenidos/Personalizar.pdf" class="descarga" download>Cómo personalizar tu producto</a>
+            </div>
+            <div class="opcion">
+                <img src="img/formulario-de-contacto.png" alt="Formulario">
+                <a href="Contenidos/Formulario.pdf" class="descarga" download>Formulario para enviar diseños</a>
+            </div>
+            <div class="opcion">
+                <img src="img/catalogo.png" alt="Catálogo">
+                <a href="Contenidos/Catalogo.pdf" class="descarga" download>Catálogo de trabajos anteriores</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-banner">
+        <a href="Contacto.html">
+            <img src="img/ICO UBICACION.png" alt="Ubicación" class="footer-icon">
+        </a>
+        <div class="footer-info">
+            <img src="img/gatito.png" alt="Gatito" class="cat-image">
+            <p class="name">Guadalupe Jiménez Méndez</p>
+            <p class="phone">556095 - 8512</p>
+        </div>
+        <a href="https://wa.me/525560958512" target="_blank">
+            <img src="img/ICO WHATS.png" alt="WhatsApp" class="footer-icon">
+        </a>
+    </section>
+    <footer>
+        © 2025 iPiñatas - Todos los derechos reservados
+    </footer>
+</body>
+</html>
